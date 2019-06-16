@@ -1,1 +1,1 @@
-# Python-mini-project
+Python mini-project on Movie Booking system using sqlite3.
