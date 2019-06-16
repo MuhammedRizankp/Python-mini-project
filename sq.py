@@ -42,6 +42,9 @@ def bookticket():
                 movie=movie_choice-1
                 user_name=input("enter ur name:")
                 user_no=input("Enter ur no.:")
+                number=str(user_no)
+                if len(number)!=10:
+                  print("Please Enter a valid number")
                 string=str(user_no)
                 identity=string[9]
                 movie_index=dbase.execute('''SELECT  * from movie_details WHERE SLNO=?''',(thetre_choice))
