@@ -12,7 +12,7 @@ def admin():
             managemovie()
         elif admin_input==2:
             customerdetail()
-        elif admin_input==3:
+        elif admin_input==3: 
             print("Thankuu!!")
         else:
             print("Invalid choice!!")
